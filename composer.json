@@ -1,0 +1,21 @@
+{
+  "name": "cesaraugustocosta/test-receiv",
+  "description": "Projeto feito para desafio Receiv",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Cesar Augusto",
+      "email": "cesaraug76@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "ext-pdo": "^7.2"
+  }
+}
